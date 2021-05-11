@@ -1,0 +1,55 @@
+2021-05-11 12:32:25.949  INFO 14592 --- [main] c.p.a.AumanagementApplication            : Starting AumanagementApplication using Java 15.0.1 on LAPTOP-PAUCVDE5 with PID 14592 (C:\Users\hp\Desktop\OpportunityProject-master\target\classes started by hp in C:\Users\hp\Desktop\OpportunityProject-master)
+2021-05-11 12:32:25.955  INFO 14592 --- [main] c.p.a.AumanagementApplication            : No active profile set, falling back to default profiles: default
+2021-05-11 12:32:28.477  INFO 14592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-11 12:32:28.614  INFO 14592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2021-05-11 12:32:29.729  INFO 14592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@50a13c2f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-11 12:32:29.746  INFO 14592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-11 12:32:31.393  INFO 14592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-11 12:32:31.433  INFO 14592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-11 12:32:31.436  INFO 14592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-11 12:32:31.680  INFO 14592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-11 12:32:31.681  INFO 14592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5484 ms
+2021-05-11 12:32:32.409  INFO 14592 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-11 12:32:32.547  INFO 14592 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-11 12:32:32.806  INFO 14592 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-11 12:32:33.030  INFO 14592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-11 12:32:33.420  INFO 14592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-11 12:32:33.472  INFO 14592 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-05-11 12:32:34.636  INFO 14592 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-11 12:32:34.675  INFO 14592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-11 12:32:35.316  INFO 14592 --- [main] c.p.a.security.MyUserDetailsService      : [ENTER] [MyUserDetailsService] contructor
+2021-05-11 12:32:35.317  INFO 14592 --- [main] c.p.a.security.MyUserDetailsService      : [EXIT] [MyUserDetailsService] contructor
+2021-05-11 12:32:35.321  INFO 14592 --- [main] c.p.a.security.JwtTokenProviderService   : [ENTER] [JwtTokenProviderService] constructor1465902810
+2021-05-11 12:32:35.322  INFO 14592 --- [main] c.p.a.security.JwtTokenProviderService   : [EXIT] [JwtTokenProviderService] constructor1465902810
+2021-05-11 12:32:35.327  INFO 14592 --- [main] c.p.a.security.JwtTokenProviderService   : [ENTER] [JwtTokenProviderService] init
+2021-05-11 12:32:35.328  INFO 14592 --- [main] c.p.a.security.JwtTokenProviderService   : [EXIT] [JwtTokenProviderService] initTVlfU0VDUkVUX0tFWQ==
+2021-05-11 12:32:35.330  INFO 14592 --- [main] c.p.a.security.JwtTokenFilter            : [ENTER] [JwtTokenFilter] contructor2085248754
+2021-05-11 12:32:35.331  INFO 14592 --- [main] c.p.a.security.JwtTokenFilter            : [EXIT] [JwtTokenFilter] contructor2085248754
+2021-05-11 12:32:35.575  INFO 14592 --- [main] c.p.a.security.JwtTokenFilterConfigurer  : [ENTER] [JwtTokenFilterConfigurer] contructor2085248754
+2021-05-11 12:32:35.576  INFO 14592 --- [main] c.p.a.security.JwtTokenFilterConfigurer  : [EXIT] [JwtTokenFilterConfigurer] contructor2085248754
+2021-05-11 12:32:35.582  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [ENTER] [WebSecurity] constructor ${}2085248754
+2021-05-11 12:32:35.583  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [EXIT] [WebSecurity] constructor2085248754
+2021-05-11 12:32:35.659  WARN 14592 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-11 12:32:36.461  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [ENTER] [WebSecurity] PasswordEncoder
+2021-05-11 12:32:36.575  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [ENTER] [WebSecurity] configure http securityorg.springframework.security.config.annotation.web.builders.HttpSecurity@5c6be812
+2021-05-11 12:32:36.583  INFO 14592 --- [main] c.p.a.security.JwtTokenFilterConfigurer  : [ENTER] [JwtTokenFilterConfigurer] contructor2085248754
+2021-05-11 12:32:36.583  INFO 14592 --- [main] c.p.a.security.JwtTokenFilterConfigurer  : [EXIT] [JwtTokenFilterConfigurer] contructor2085248754
+2021-05-11 12:32:36.584  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [EXIT] [WebSecurity] configure http securityorg.springframework.security.config.annotation.web.builders.HttpSecurity@5c6be812
+2021-05-11 12:32:36.584  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [ENTER] [WebSecurity] configure(WebSecurity web)org.springframework.security.config.annotation.web.builders.WebSecurity@5c30decf
+2021-05-11 12:32:36.585  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [EXIT] [WebSecurity] configure(WebSecurity web)
+2021-05-11 12:32:36.585  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/v2/api-docs'] with []
+2021-05-11 12:32:36.586  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-resources/**'] with []
+2021-05-11 12:32:36.586  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/swagger-ui.html'] with []
+2021-05-11 12:32:36.586  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/configuration/**'] with []
+2021-05-11 12:32:36.586  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/webjars/**'] with []
+2021-05-11 12:32:36.587  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/public'] with []
+2021-05-11 12:32:36.587  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/h2-console/**/**'] with []
+2021-05-11 12:32:36.652  INFO 14592 --- [main] c.p.a.security.JwtTokenFilterConfigurer  : [ENTER] [JwtTokenFilterConfigurer] configure
+2021-05-11 12:32:36.652  INFO 14592 --- [main] c.p.a.security.JwtTokenFilter            : [ENTER] [JwtTokenFilter] contructor2085248754
+2021-05-11 12:32:36.653  INFO 14592 --- [main] c.p.a.security.JwtTokenFilter            : [EXIT] [JwtTokenFilter] contructor2085248754
+2021-05-11 12:32:36.654  INFO 14592 --- [main] c.p.a.security.JwtTokenFilterConfigurer  : [EXIT] [JwtTokenFilterConfigurer] configure
+2021-05-11 12:32:36.654  INFO 14592 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4dc5b887, org.springframework.security.web.context.SecurityContextPersistenceFilter@57063e08, org.springframework.security.web.header.HeaderWriterFilter@5f7c1de0, org.springframework.web.filter.CorsFilter@5a010eec, org.springframework.security.web.authentication.logout.LogoutFilter@61627c9d, com.project.aumanagement.security.JwtTokenFilter@3b7dd173, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@272f5373, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5625ba2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7552f05b, org.springframework.security.web.session.SessionManagementFilter@7207f3c2, org.springframework.security.web.access.ExceptionTranslationFilter@6aed4a23, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@209d0037]
+2021-05-11 12:32:36.685  INFO 14592 --- [main] c.p.a.security.WebSecurityConfig         : [ENTER] [WebSecurity] AuthenticationManager
+2021-05-11 12:32:36.874  INFO 14592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-11 12:32:37.329  INFO 14592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-11 12:32:37.947  INFO 14592 --- [main] c.p.a.AumanagementApplication            : Started AumanagementApplication in 12.781 seconds (JVM running for 13.677)

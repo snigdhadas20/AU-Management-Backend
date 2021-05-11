@@ -28,7 +28,7 @@ public class JwtTokenProviderService implements IJwtTokenProviderService {
 	@Value("${jwt.secret}")
     private String secretKey;
  
-    private long validityInMilliseconds = 3600000; // 1h
+    private long validityInMilliseconds = 300000; 
     
     static Logger log = LoggerFactory.getLogger(JwtTokenProviderService.class);
 
